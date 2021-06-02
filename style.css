@@ -1,19 +1,50 @@
 .text_1{
-     text-align: center;
+    text-align: center;
 }
 
 .text_2{
-     text-align: right;
+    text-align: right;
 }
 
 .image{
-     text-align: center;
+    text-align: center;
 }
 
 .button_1{
-     text-align: center;
+    text-align: center;
+}
+
+button{
+	width: 150px;
+	height: 50px;
 }
 
 body{
-     background-color: #ffeabf;
+    background-color: #ffeabf;
+}
+
+.third {
+	border-color: #ffcb73;
+	color: #fff;
+	box-shadow: 0 0 40px 40px #ffcb73 inset, 0 0 0 0 #ffcb73;
+	-webkit-transition: all 150ms ease-in-out;
+}
+.text_3 {
+	color: #e74c3c;
+}
+.third:hover {
+	box-shadow: 0 0 10px 0 #ffcb73 inset, 0 0 10px 4px #ffcb73;
+}
+.btn {
+	background-color: transparent;
+	border: 2px solid #e74c3c;
+	border-radius: 0.6em;
+	color: #e74c3c;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+.btn:hover, .btn:focus {
+	color: #fff;
+
 }
